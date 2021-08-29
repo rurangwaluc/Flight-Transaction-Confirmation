@@ -1,0 +1,624 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flight Confirmation HTML Email</title>
+  <style type="text/css">
+    body {
+      margin: 0;
+      background-color: #F9F9F9;
+      font-family: "Trebuchet MS", sans-serif;
+    }
+
+    table {
+      border-spacing: 0;
+    }
+
+    td {
+      padding: 0;
+    }
+
+    img {
+      border: 0;
+    }
+
+    .wrapper {
+      width: 100%;
+      table-layout: fixed;
+      padding-bottom: 40px;
+    }
+
+    .main {
+      background-color: #ffffff;
+      margin: 20px auto;
+      width: 100%;
+      max-width: 600px;
+      border-spacing: 0;
+      font-family: sans-serif;
+      color: #4a4a4a;
+    }
+
+    .buttn {
+      background-color: #EA5256;
+      color: #ffffff;
+      text-decoration: none;
+      padding: 12px 20px;
+      font-weight: 500;
+      text-transform: uppercase;
+      font-family: "Trebuchet MS", sans-serif;
+      font-size: 16px;
+      border-radius: 5px;
+      margin-bottom: 40px;
+
+    }
+    .button {
+      background-color: #EA5256;
+      color: #ffffff;
+      text-decoration: none;
+      padding: 12px 20px;
+      font-weight: 500;
+      text-transform: uppercase;
+      font-family: "Trebuchet MS", sans-serif;
+      font-size: 16px;
+      border-radius: 5px;
+    }
+    .hero{
+      display: flex;
+      justify-content: space-evenly;
+      padding: 40px; 
+    }
+.tbHero{
+  background-color: #EA5256;
+  width: 600px;
+}
+.round_corners {
+  width: 600px;
+}
+.sq{
+  width: 600px; 
+  padding: 20px 20px 50px;
+}
+.sqs{
+  width: 600px; 
+  padding: 20px 20px 0px;
+}
+.heroCode{
+      display: flex;
+      justify-content: space-between;
+      padding-left: 30px; 
+      text-align: left;
+    }
+
+   .barcode img{
+      width: 500px;
+      margin: 20px auto 55px;
+    }
+    .pick{
+      background-color: #E7E7E7;
+      width: 600px; 
+      padding: 30px 5px;
+      display: flex;
+      justify-content: space-evenly;
+    }
+
+    .downloads{
+  width: 610px; 
+  padding: 30px;
+}
+.download{
+  display: flex;
+      justify-content: space-between;
+}
+
+.footer{
+  width: 600px; 
+}
+
+.footer_links a{
+ padding-right: 70px;
+}
+
+
+
+
+
+
+
+    @media screen and (max-width: 600px) {
+      .main{
+        margin: 10px auto;
+        width: 368px;
+      }
+      .hero{
+        padding: 20px; 
+    }
+    .tbHero{
+  background-color: #EA5256;
+  width: 368px;
+  margin-top: -10px;
+  }
+  .round_corners {
+  width: 368px;
+}
+.sq{
+  width: 368px; 
+}
+.sqs{
+  width: 368px; 
+}
+.barcode img{
+      width: 300px;
+      margin: 20px auto;
+    }
+    .pick{
+      width: 368px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+ }
+ .pick-img{
+   padding-top: 20px;
+ }
+ .downloads{
+  width: 368px; 
+ 
+}
+.download{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+
+.footer_links a{
+ padding-right: 10px;
+}
+    }
+  </style>
+</head>
+
+<body>
+  <center class="wrapper">
+
+    <table class="main" width="100%">
+ <!-- Header -->
+      <tr>
+        <td style="padding: 20px; display: flex; background-color: #ffffff; justify-content: space-between;">
+          <div class="logo">
+            <img src="img/logo_airline.png" alt="Logo" width="69">
+          </div>
+          <div  style="font-size: 12px; font-family: 'Trebuchet MS', sans-serif; text-align: right;" >
+            <p style="padding: 0px;">James Brown</p>
+            <p>Member Nr. <span style="color: #EB5256;">688969807</span> | Level
+               <span style="color: #EB5256;">Basic</span></p>
+            <p>Reward Points <span style="color: #EB5256;">2000</span></p>
+          </div>
+        </td>
+      </tr>
+       <!-- Title-->
+      <tr style="background-color: #F9F9F9!important;">
+        <td style="padding: 20px; background-color: #A9E0FF; border-top-left-radius: 20px; border-top-right-radius: 20px;">
+          <div class="heading" style="color: #1678AC; text-align: center; padding: 5px; font-family: 'Trebuchet MS', sans-serif; font-size: 16px; font-weight: 600;">
+            <span>Flight Confirmation</span>
+          </div>
+          
+        </td>
+      </tr>
+
+
+  <!-- SubHeader -->
+  <tr>
+    <td style="padding: 20px; display: flex; justify-content: space-between;">
+      <div class="heading" style=" text-align: left; padding: 5px; font-family: 'Trebuchet MS', sans-serif;  font-weight: 500;">
+        <span style="color: #000000; font-size: 17px;">Confirmation Code</span>
+        <div>
+          <span style="color: #EA5256; font-size: 20px;">WTH34LT</span>
+        </div>
+      </div>
+     
+    </td>
+  </tr>
+
+  <!-- Hero SECTION -->
+  <table class="tbHero">
+
+
+  <tr>
+    <td style="background-color: #EA5256; color:#ffffff;font-family: 'Trebuchet MS', sans-serif; ">
+      <div class="hero" >
+        <div>
+
+          <strong style="font-size: 40px;">OTP</strong>
+          <div> <br>
+            <span style="font-size: 17px">Bucharest</span>
+            
+          </div>
+        </div>
+        <div>
+
+          <img src="img/Airplane_.gif" alt="" width="135">
+          <div style="text-align: center;"> 
+            <span style="font-size: 12px;">Flight Duration</span> <br>
+            <span style="font-size: 12px; margin-top: 10px;">2h 54m</span>
+            
+          </div>
+        </div>
+        <div>
+
+          <strong style="font-size: 40px;">LHR</strong>
+          <div> <br>
+            <span style="font-size: 17px">London</span>
+            
+          </div>
+        </div>
+      </div>
+      
+    </td>
+    
+  </tr>
+  <tr>
+    <td style="background-color: #EA5256;  color:#ffffff;font-family: 'Trebuchet MS', sans-serif; ">
+      <hr width="80%" style="color: #ffffff;">
+    <div class="hero" >
+      <div>
+
+        <div> 
+          <span style="font-size: 15px">Terminal</span>
+          
+        </div><br>
+        <strong style="font-size: 18px;">A</strong>
+      </div>
+      <div>
+
+        <div> 
+          <span style="font-size: 15px">Bording Time</span>
+          
+        </div><br>
+        <strong style="font-size: 18px;">16:45</strong>
+      </div>
+      <div>
+
+        <div> 
+          <span style="font-size: 15px">Class</span>
+          
+        </div><br>
+        <strong style="font-size: 18px;">Economy</strong>
+      </div>
+      <div>
+
+        <div> 
+          <span style="font-size: 15px">Seat</span>
+          
+        </div><br>
+        <strong style="font-size: 18px;">17A</strong>
+      </div>
+    </div>
+    
+  </td>
+</tr>
+  </table>
+  <!-- BANNER IMAGE   DIVIDER -->
+  <tr>
+    <td>
+      <img class="round_corners" src="img/round_corners_2.png" alt="">
+    </td>
+  </tr>
+
+  <!-- Scanner Code -->
+    <tr>
+      <table class="sq" style="background-color: #ffffff; ">
+        <td>
+          <div class="heroCode" >
+            <div>
+      
+              <div> 
+                <span style="font-size: 15px">Flight</span>
+                
+              </div><br>
+              <strong style="font-size: 18px;">WT897</strong>
+            </div>
+            <div>
+      
+              <div> 
+                <span style="font-size: 15px">Date</span>
+                
+              </div><br>
+              <strong style="font-size: 18px;">14Jan</strong>
+            </div>
+            <div>
+      
+              <div> 
+                <span style="font-size: 15px">Plane</span>
+                
+              </div><br>
+              <strong style="font-size: 18px;">A320</strong>
+            </div>
+            <div></div>
+          
+          </div>
+          <div class="barcode">
+
+            <img  src="/img/barcode.png" alt="">
+          </div>
+          <div style="text-align: center;">
+            <a href="#" class="buttn">Download boarding pass</a>
+          </div>
+        </td>
+      </table>
+    </tr>
+   <!-- BANNER IMAGE   DIVIDER -->
+   <tr>
+    <td>
+      <img class="round_corners" src="img/round_corners_2.png" alt="">
+    </td>
+  </tr>
+  <!-- BOOKING SECTION -->
+  <tr>
+    <table class="sq" style="background-color: #ffffff; ">
+      <td>
+        <div style="font-size: 16px; font-weight: 600; margin: 30px 20px;">
+
+          <span >Booking Details</span>
+        </div>
+        <div class="heroCode" >
+          <div>
+            <div>
+              <span style="font-size: 14px">Luggage</span>
+
+            </div> <br>
+
+            <div> 
+              <span style="font-size: 14px">Seat</span>
+              
+            </div><br>
+            <span style="font-size: 14px;">Class</span>
+          </div>
+        
+          <div>
+            <div>
+              <span style="font-size: 14px">1 x 24kg</span>
+
+            </div> <br>
+            <div> 
+              <span style="font-size: 14px">17A</span>
+              
+            </div><br>
+            <span style="font-size: 14px;">Economy</span>
+          </div>
+          <div></div>
+        
+        </div>
+        <div style="margin-bottom: 50px;">
+
+          
+        </div>
+        <div style="text-align: center;">
+          <a href="#" class="buttn">Make Changes</a>
+        </div>
+      </td>
+    </table>
+  </tr>
+   <!-- BANNER IMAGE   DIVIDER -->
+   <tr>
+    <td>
+      <img class="round_corners" src="img/round_corners_2.png" alt="">
+    </td>
+  </tr>
+  <!-- BOOKING SECTION -->
+  <tr>
+    <table class="sqs" style="background-color: #ffffff; ">
+      <td>
+        <div style="font-size: 16px; font-weight: 600; margin: 30px 20px;">
+
+          <span >Your Trip Receipt</span> <br>
+          <div style="display: flex; margin-top: 20px;">
+            <img style="margin-top: 10px;" src="img/creadit_card.png" alt="Creadit card" width="35" height="24">
+            <div style="width: 100px;"></div>
+            <p style="font-size: 14px; font-weight: 400;">Visa xxxx xxxx xxxx xx34</p>
+          </div>
+        </div>
+        <div style="font-size: 16px; font-weight: 600; margin: 30px 20px;">
+
+          <span >James Brown</span>
+        </div>
+        <div class="heroCode" >
+          <div>
+            <div>
+              <span style="font-size: 14px">Basic Economy Far x1</span>
+
+            </div> <br>
+
+            <div> 
+              <span style="font-size: 14px">Fees & Taxes</span>
+              
+            </div><br>
+            <span style="font-size: 14px; font-weight: 600;">Total</span>
+          </div>
+        
+          <div>
+            <div>
+              <span style="font-size: 14px">$350</span>
+
+            </div> <br>
+            <div> 
+              <span style="font-size: 14px">$50</span>
+              
+            </div><br>
+            <span style="font-size: 14px; font-weight: 600;">$400</span>
+          </div>
+          <div></div>
+        
+        </div>
+        <div style="margin-bottom: 50px;">
+
+          
+        </div>
+      
+      </td>
+    </table>
+  </tr>
+   <!-- BANNER IMAGE   DIVIDER -->
+   <tr>
+    <td>
+      <img class="round_corners" src="img/round_corners_2.png" alt="">
+    </td>
+  </tr>
+
+  <!-- TWO COLUMN SECTION -->
+  <tr>
+    <td>
+      <div class="pick">
+          <div class="pick-text" style="text-align: left; padding: 10px;">
+            <div style="font-size: 17px; font-weight: 600;"><span>Get Pick Puck</span></div> <br>
+            <div>
+              <div>
+                <strong>Terminal 2</strong>
+
+              </div> 
+              <div style="font-size: 14px;"><span>
+                Inner Ring E, Hounslow TW6 1RR, UK
+              </span></div><br><br>
+              <div>
+                <a href="#" class="button">Reserve Taxi</a>
+              </div>
+            </div>
+          </div>
+          <div class="pick-img">
+            <img src="img/Map_2.png" alt="Map" width="255">
+          </div>
+      </div>
+    </td>
+  </tr>
+  
+    <tr>
+      
+      
+      <td>
+       
+        <div class="pick" style="margin-top: -5px; border-top: 2px dashed #ffffff; ">
+            <div class="pick-text" style="text-align: left; padding: 10px;">
+              <div style="font-size: 17px; font-weight: 600;"><span>Get Pick Puck</span></div> <br>
+              <div>
+                <div>
+                  <strong>Reserve Hotel</strong>
+
+                </div> 
+                <div style="font-size: 14px;"><span>
+                  Up to 35% off base price + 5 000 bonus miles
+                </span></div><br><br>
+                <div>
+                  <a href="#" class="button">Reserve Hote</a>
+                </div>
+              </div>
+            </div>
+            <div class="pick-img">
+              <img src="img/hotel.png" alt="Hotel" width="255">
+            </div>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      
+      
+      <td>
+       
+        <div class="pick" style="margin-top: -5px; border-top: 2px dashed #ffffff; ">
+            <div class="pick-text" style="text-align: left; padding: 10px;">
+              <div style="font-size: 17px; font-weight: 600;"><span>Get Pick Puck</span></div> <br>
+              <div>
+                <div>
+                  <strong>Reserve Hotel</strong>
+
+                </div> 
+                <div style="font-size: 14px;"><span>
+                  Up to 35% off base price + 5 000 bonus miles
+                </span></div><br><br>
+                <div>
+                  <a href="#" class="button">Reserve Hote</a>
+                </div>
+              </div>
+            </div>
+            <div class="pick-img">
+              <img src="img/shopping.png" alt="shopping" width="255">
+            </div>
+        </div>
+      </td>
+    </tr>
+
+  <!-- Download  -->
+
+  <tr>
+    <table class="downloads" style="background-color: #ffffff; border-bottom-left-radius: 20px; border-bottom-right-radius: 20px;">
+      <td>
+   
+        <div class="download" >
+            <div class="download_title" style="font-size: 16px; font-weight: 600; padding: 10px 0px;">
+              <div>
+                <span>Download free</span>
+              </div>
+              <div>
+                <span>mobile application</span>
+              </div>
+            </div>
+            <div>
+              
+            </div>
+            <div class="download_title" style="display: flex; justify-content: space-between;">
+              <div style="padding: 5px;">
+                <img src="img/App_Store_Badge_US_Black.png" alt="" width="118" height="35">
+              </div>
+              <div style="padding: 5px ;">
+                <img src="img/Google_Play_Badge_US.png" alt="" width="118" height="35">
+              </div>
+            </div>
+        </div>
+       
+
+        
+      </td>
+    </table>
+  </tr>
+  <!-- FOOTER SECTION -->
+  <tr>
+    <td class="footer">
+      <div class="footer_logo" style="padding: 20px;">
+        <img src="img/logo_smaller.png" alt="Logo" width="83" height="75">
+      </div>
+      <div class="footer_links" style="display: inline;   padding-bottom: 20px;
+      border-bottom: 1px dashed #626262;">
+        <a style="text-decoration: none; color: #626262; font-size: 14px;" href="#">Need Help</a>
+        <a style="text-decoration: none; color: #626262; font-size: 14px;" href="#">Flight Deals</a>
+        <a style="text-decoration: none; color: #626262; font-size: 14px;" href="#">Earn Miles</a>
+        <a style="text-decoration: none; color: #626262; font-size: 14px;" href="#">Give Back</a>
+      </div>
+      
+    </td>
+    
+  </tr>
+  <table style="margin-top: 50px;">
+    <tr>
+      <td style=" text-align: center;">
+        <a style="text-decoration: none; color: #626262; font-size: 14px;" href="#"><img src="img/facebook2x.png" alt="Icon" width="32" height="32"></a>
+        <a style="text-decoration: none; color: #626262; font-size: 14px;" href="#"><img src="img/twitter2x.png" alt="Icon" width="32" height="32"></a>
+        <a style="text-decoration: none; color: #626262; font-size: 14px;" href="#"><img src="img/instagram2x.png" alt="Icon" width="32" height="32"></a>
+        <a style="text-decoration: none; color: #626262; font-size: 14px;" href="#"><img src="img/linkedin2x.png" alt="Icon" width="32" height="32"></a>
+      </td>
+    </tr>
+    <tr >
+      <td style="padding-top: 30px; text-align: center;">
+        <a style="text-decoration: none; color: #626262; font-size: 14px;" href="#">Manage Preferences |</a>
+        <a style="color: #626262; font-size: 14px;" href="#">Unsubscribe</a>
+        <a style="text-decoration: none; color: #626262; font-size: 14px;" href="#">| Privacy Notice </a>
+      </td>
+    </tr>
+  </table>
+
+      </table>
+    </center>
+    
+</body>
+
+</html>
