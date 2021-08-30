@@ -34,7 +34,7 @@
 
     .main {
       background-color: #ffffff;
-      margin: 20px auto;
+      margin: 20px auto 0px;
       width: 100%;
       max-width: 600px;
       border-spacing: 0;
@@ -59,7 +59,7 @@
       background-color: #EA5256;
       color: #ffffff;
       text-decoration: none;
-      padding: 12px 20px;
+      padding: 12px 15px;
       font-weight: 500;
       text-transform: uppercase;
       font-family: "Trebuchet MS", sans-serif;
@@ -98,20 +98,18 @@
       margin: 20px auto 55px;
     }
     .pick{
-      background-color: #E7E7E7;
-      width: 600px; 
-      padding: 30px 5px;
-      display: flex;
-      justify-content: space-evenly;
+      width: 600px;
+    }
+    .pick_img img{
+      width: 255px;
     }
 
     .downloads{
   width: 610px; 
   padding: 30px;
 }
-.download{
-  display: flex;
-      justify-content: space-between;
+.the_download{
+  width: 600px;
 }
 
 .footer{
@@ -156,21 +154,16 @@
     }
     .pick{
       width: 368px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
- }
- .pick-img{
-   padding-top: 20px;
- }
- .downloads{
-  width: 368px; 
- 
-}
-.download{
- display: flex;
- flex-direction: column;
- align-items: center;
+    }
+    .pick_img {
+      text-align: right;
+      margin-left: 10px;
+    }
+    .pick_img img{
+      width: 155px;
+    }
+    .the_download{
+  width: 368px;
 }
 
 .footer_links a{
@@ -185,25 +178,36 @@
 
     <table class="main" width="100%">
  <!-- Header -->
-      <tr>
-        <td style="padding: 20px; display: flex; background-color: #ffffff; justify-content: space-between;">
-          <div class="logo">
-            <img src="img/logo_airline.png" alt="Logo" width="69">
-          </div>
-          <div  style="font-size: 12px; font-family: 'Trebuchet MS', sans-serif; text-align: right;" >
-            <p style="padding: 0px;">James Brown</p>
-            <p>Member Nr. <span style="color: #EB5256;">688969807</span> | Level
-               <span style="color: #EB5256;">Basic</span></p>
-            <p>Reward Points <span style="color: #EB5256;">2000</span></p>
-          </div>
-        </td>
+      <tr >
+       <td>
+         <table style="padding: 20px; background-color: #ffffff; width: 100%;">
+           <tr>
+            <td>
+              <span class="logo">
+                <img src="img/logo_airline.png" alt="Logo" width="69">
+              </span>
+             
+            </td>
+            <td >
+              
+              <span  style="font-size: 12px; font-family: 'Trebuchet MS', sans-serif; text-align: right;" >
+                <p style="padding: 0px;">James Brown</p>
+                <p>Member Nr. <span style="color: #EB5256;">688969807</span> | Level
+                   <span style="color: #EB5256;">Basic</span></p>
+                <p>Reward Points <span style="color: #EB5256;">2000</span></p>
+              </span>
+            </td>
+           </tr>
+         </table>
+       </td>
       </tr>
+
        <!-- Title-->
       <tr style="background-color: #F9F9F9!important;">
         <td style="padding: 20px; background-color: #A9E0FF; border-top-left-radius: 20px; border-top-right-radius: 20px;">
-          <div class="heading" style="color: #1678AC; text-align: center; padding: 5px; font-family: 'Trebuchet MS', sans-serif; font-size: 16px; font-weight: 600;">
+          <span class="heading" style="color: #1678AC; text-align: center; padding: 5px; font-family: 'Trebuchet MS', sans-serif; font-size: 16px; font-weight: 600;">
             <span>Flight Confirmation</span>
-          </div>
+          </span>
           
         </td>
       </tr>
@@ -212,94 +216,95 @@
   <!-- SubHeader -->
   <tr>
     <td style="padding: 20px; display: flex; justify-content: space-between;">
-      <div class="heading" style=" text-align: left; padding: 5px; font-family: 'Trebuchet MS', sans-serif;  font-weight: 500;">
-        <span style="color: #000000; font-size: 17px;">Confirmation Code</span>
-        <div>
+      <span class="heading" style=" text-align: left; padding: 5px; font-family: 'Trebuchet MS', sans-serif;  font-weight: 500;">
+        <span style="color: #000000; font-size: 17px;">Confirmation Code</span><br>
+        <span>
           <span style="color: #EA5256; font-size: 20px;">WTH34LT</span>
-        </div>
-      </div>
+        </span>
+      </span>
      
     </td>
   </tr>
 
   <!-- Hero SECTION -->
-  <table class="tbHero">
-
 
   <tr>
-    <td style="background-color: #EA5256; color:#ffffff;font-family: 'Trebuchet MS', sans-serif; ">
-      <div class="hero" >
-        <div>
-
+    <td>
+     <table style="width: 100%; padding: 20px; background-color: #EA5256; color:#ffffff;font-family: 'Trebuchet MS', sans-serif; text-align: center; margin-bottom: -2px;">
+       <tr>
+         <th>
           <strong style="font-size: 40px;">OTP</strong>
-          <div> <br>
-            <span style="font-size: 17px">Bucharest</span>
-            
-          </div>
-        </div>
-        <div>
-
+        </th>
+         <th>
           <img src="img/Airplane_.gif" alt="" width="135">
-          <div style="text-align: center;"> 
-            <span style="font-size: 12px;">Flight Duration</span> <br>
-            <span style="font-size: 12px; margin-top: 10px;">2h 54m</span>
-            
-          </div>
-        </div>
-        <div>
-
+        </th>
+         <th>
           <strong style="font-size: 40px;">LHR</strong>
-          <div> <br>
-            <span style="font-size: 17px">London</span>
-            
-          </div>
-        </div>
-      </div>
-      
+        </th>
+       
+          
+        
+       </tr>
+       <tr>
+         
+        <td> <span style="font-size: 17px">Bucharest</span></td>
+        <td>
+          <span style="font-size: 12px;">Flight Duration</span> <br>
+          <span style="font-size: 12px; margin-top: 10px;">2h 54m</span>
+        </td>
+         <td>
+          <span style="font-size: 17px">London</span>
+
+         </td> 
+       </tr>
+     </table>
     </td>
     
   </tr>
   <tr>
-    <td style="background-color: #EA5256;  color:#ffffff;font-family: 'Trebuchet MS', sans-serif; ">
+    <td style="background: #EA5256;">
       <hr width="80%" style="color: #ffffff;">
-    <div class="hero" >
-      <div>
-
-        <div> 
-          <span style="font-size: 15px">Terminal</span>
-          
-        </div><br>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      
+   <table style="width: 100%; text-align: center; background-color: #EA5256; padding: 20px; color:#ffffff;font-family: 'Trebuchet MS', sans-serif;margin-top: -2px; ">
+     <tr>
+       <th>
+        <span style="font-size: 15px; font-weight: 300; margin-bottom: 5px;">Terminal</span><br> <br>
+       </th>
+       <th>
+        <span style="font-size: 15px; font-weight: 300; margin-bottom: 5px;">Bording Time</span><br> <br>
+       </th>
+       <th>
+        <span style="font-size: 15px; font-weight: 300; margin-bottom: 5px;">Class</span><br> <br>
+       </th>
+       <th>
+        <span style="font-size: 15px; font-weight: 300; margin-bottom: 5px;">Seat</span><br> <br>
+       </th>
+    </tr>
+    <tr>
+      <td>
         <strong style="font-size: 18px;">A</strong>
-      </div>
-      <div>
-
-        <div> 
-          <span style="font-size: 15px">Bording Time</span>
-          
-        </div><br>
+      </td>
+      <td>
         <strong style="font-size: 18px;">16:45</strong>
-      </div>
-      <div>
-
-        <div> 
-          <span style="font-size: 15px">Class</span>
-          
-        </div><br>
+      </td>
+      <td>
         <strong style="font-size: 18px;">Economy</strong>
-      </div>
-      <div>
-
-        <div> 
-          <span style="font-size: 15px">Seat</span>
-          
-        </div><br>
+      </td>
+      <td>
         <strong style="font-size: 18px;">17A</strong>
-      </div>
-    </div>
+      </td>
+    </tr>
+  
     
+   </table>
+   
   </td>
 </tr>
-  </table>
+ 
   <!-- BANNER IMAGE   DIVIDER -->
   <tr>
     <td>
@@ -309,45 +314,53 @@
 
   <!-- Scanner Code -->
     <tr>
-      <table class="sq" style="background-color: #ffffff; ">
-        <td>
-          <div class="heroCode" >
-            <div>
-      
-              <div> 
-                <span style="font-size: 15px">Flight</span>
-                
-              </div><br>
-              <strong style="font-size: 18px;">WT897</strong>
-            </div>
-            <div>
-      
-              <div> 
-                <span style="font-size: 15px">Date</span>
-                
-              </div><br>
-              <strong style="font-size: 18px;">14Jan</strong>
-            </div>
-            <div>
-      
-              <div> 
-                <span style="font-size: 15px">Plane</span>
-                
-              </div><br>
-              <strong style="font-size: 18px;">A320</strong>
-            </div>
-            <div></div>
-          
-          </div>
-          <div class="barcode">
-
-            <img  src="/img/barcode.png" alt="">
-          </div>
-          <div style="text-align: center;">
-            <a href="#" class="buttn">Download boarding pass</a>
-          </div>
-        </td>
-      </table>
+      <td>
+        <table class="sq" style="background-color: #ffffff; width: 100%; text-align: center;">
+          <tr>
+            <th>
+              <span style="font-size: 15px; font-weight: 300;">Flight</span><br> <br>
+            </th>
+            <th>
+              <span style="font-size: 15px; font-weight: 300;">Date</span><br> <br>
+            </th>
+            <th>
+              <span style="font-size: 15px; font-weight: 300;">Plane</span><br> <br>
+            </th> 
+          </tr>
+            <tr>
+              <td>
+                <strong style="font-size: 18px;">WT897</strong>
+              </td>
+              <td>
+                <strong style="font-size: 18px;">14Jan</strong>
+              </td>
+              <td>
+                <strong style="font-size: 18px;">A320</strong>
+              </td>
+            </tr>
+            
+        </table>
+        <table style="padding: 0px 20px 20px; text-align: center; width: 100%;">
+          <tr>
+            <td>
+              <tr>
+                    
+                <td style="margin: 0 auto;">
+        
+                  <img  src="/img/barcode.png" alt="" width="350"><br> <br>
+                </td>
+                  
+                </tr>
+                <tr>
+                  <td>
+                    <a href="#" class="buttn">Download boarding pass</a>
+        
+                  </td>
+                </tr>
+            </td>
+          </tr>
+        </table>
+      </td>
     </tr>
    <!-- BANNER IMAGE   DIVIDER -->
    <tr>
@@ -355,52 +368,58 @@
       <img class="round_corners" src="img/round_corners_2.png" alt="">
     </td>
   </tr>
+
   <!-- BOOKING SECTION -->
   <tr>
-    <table class="sq" style="background-color: #ffffff; ">
-      <td>
-        <div style="font-size: 16px; font-weight: 600; margin: 30px 20px;">
+   <td>
+    <table class="sq" style="background-color: #ffffff; width: 80%; padding: 20px; text-align: left;">
+      <tr>
+        <td>
+          <span style="font-size: 16px; font-weight: 600; margin: 30px 20px;">
 
-          <span >Booking Details</span>
-        </div>
-        <div class="heroCode" >
-          <div>
-            <div>
-              <span style="font-size: 14px">Luggage</span>
+            <p >Booking Details</p>
+          </span>
+        </td>
+      </tr>
 
-            </div> <br>
-
-            <div> 
-              <span style="font-size: 14px">Seat</span>
-              
-            </div><br>
-            <span style="font-size: 14px;">Class</span>
-          </div>
-        
-          <div>
-            <div>
-              <span style="font-size: 14px">1 x 24kg</span>
-
-            </div> <br>
-            <div> 
-              <span style="font-size: 14px">17A</span>
-              
-            </div><br>
-            <span style="font-size: 14px;">Economy</span>
-          </div>
-          <div></div>
-        
-        </div>
-        <div style="margin-bottom: 50px;">
-
+       <tr>
+        <th>
+          <span style="font-size: 14px">Luggage</span> <br><br>
+        </th>
+        <td>
+          <span style="font-size: 14px">1 x 24kg</span>
+         
+        </td>
+       </tr>
+       <tr>
+        <th>
+          <span style="font-size: 14px">Seat</span><br><br>
           
-        </div>
-        <div style="text-align: center;">
-          <a href="#" class="buttn">Make Changes</a>
-        </div>
-      </td>
+        </th>
+        <td>
+          <span style="font-size: 14px">17A</span>
+        </td>
+       </tr>
+       <tr>
+        <th>
+          
+          <span style="font-size: 14px;">Class</span><br><br>
+        </th>
+        <td>
+          <span style="font-size: 14px;">Economy</span>
+        </td>
+       </tr>
+        
     </table>
+   </td>
   </tr>
+     
+  <tr>
+    <td style="text-align: center; padding: 0px 20px 20px;">
+      <br><br>
+      <a href="#" class="buttn">Make Changes</a>
+    </td>
+  </tr><br><br>
    <!-- BANNER IMAGE   DIVIDER -->
    <tr>
     <td>
@@ -408,54 +427,69 @@
     </td>
   </tr>
   <!-- BOOKING SECTION -->
+
+  
   <tr>
     <table class="sqs" style="background-color: #ffffff; ">
       <td>
-        <div style="font-size: 16px; font-weight: 600; margin: 30px 20px;">
+        <table>
+          <tr>
+            <td>
+              <span style="font-weight: 600;">Your Trip Receipt</span> <br>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <img style="margin-top: 10px;" src="img/creadit_card.png" alt="Creadit card" width="35" height="24">
 
-          <span >Your Trip Receipt</span> <br>
-          <div style="display: flex; margin-top: 20px;">
-            <img style="margin-top: 10px;" src="img/creadit_card.png" alt="Creadit card" width="35" height="24">
-            <div style="width: 100px;"></div>
-            <p style="font-size: 14px; font-weight: 400;">Visa xxxx xxxx xxxx xx34</p>
-          </div>
-        </div>
-        <div style="font-size: 16px; font-weight: 600; margin: 30px 20px;">
+            </td>
+            <td>
+              <p style="font-size: 14px; font-weight: 400;">Visa xxxx xxxx xxxx xx34</p>
 
-          <span >James Brown</span>
-        </div>
-        <div class="heroCode" >
-          <div>
-            <div>
-              <span style="font-size: 14px">Basic Economy Far x1</span>
-
-            </div> <br>
-
-            <div> 
-              <span style="font-size: 14px">Fees & Taxes</span>
-              
-            </div><br>
-            <span style="font-size: 14px; font-weight: 600;">Total</span>
-          </div>
-        
-          <div>
-            <div>
-              <span style="font-size: 14px">$350</span>
-
-            </div> <br>
-            <div> 
-              <span style="font-size: 14px">$50</span>
-              
-            </div><br>
-            <span style="font-size: 14px; font-weight: 600;">$400</span>
-          </div>
-          <div></div>
-        
-        </div>
-        <div style="margin-bottom: 50px;">
-
+            </td>
+          </tr>
           
-        </div>
+        </table>
+        <table style="margin: 20px 10px; text-align: left; width: 80% ;">
+          <tr>
+            <td>
+              <tr>
+                <td>
+                 <span style="font-size: 16px; font-weight: 600; margin: 30px 20px;">
+       
+                   <span >James Brown</span>
+                   <br><br>
+                 </span>
+                </td>
+              </tr>
+              <tr>
+                <th><span style="font-size: 14px">Basic Economy Far x1</span><br><br> </th>
+                
+                <td><span style="font-size: 14px">$350</span></td>
+              </tr>
+              <tr>
+                <th>
+                  <span style="font-size: 14px">Fees & Taxes</span> <br><br>
+                </th>
+                
+                <td>
+                  <span style="font-size: 14px">$50</span>
+                </td>
+              </tr>
+              <tr>
+                <th>
+                  <span style="font-size: 14px; font-weight: 600;">Total</span><br><br>
+                </th>
+                
+                <td>
+                  <span style="font-size: 14px; font-weight: 600;">$400</span>
+                </td>
+              </tr>
+
+            </td>
+          </tr>
+        </table>
+       
       
       </td>
     </table>
@@ -470,130 +504,98 @@
   <!-- TWO COLUMN SECTION -->
   <tr>
     <td>
-      <div class="pick">
-          <div class="pick-text" style="text-align: left; padding: 10px;">
-            <div style="font-size: 17px; font-weight: 600;"><span>Get Pick Puck</span></div> <br>
-            <div>
-              <div>
-                <strong>Terminal 2</strong>
+     <table class="pick" style="padding: 30px 20px; background-color: #E7E7E7;text-align: leftss; ">
+       <tr>
+         <td>
+          <span style="font-size: 17px; font-weight: 600;"><span>Get Pick Puck</span></span> <br>
+          <span>
+            <p>
+              <strong>Terminal 2</strong>
+      
+            </p> 
+            <span style="font-size: 14px;"><p>
+              Inner Ring E, Hounslow TW6 1RR, UK
+            </p></span>  <br>
+            <span>
+              <a href="#" class="button">Reserve Taxi</a>
+            </span>
+          </span>
 
-              </div> 
-              <div style="font-size: 14px;"><span>
-                Inner Ring E, Hounslow TW6 1RR, UK
-              </span></div><br><br>
-              <div>
-                <a href="#" class="button">Reserve Taxi</a>
-              </div>
-            </div>
-          </div>
-          <div class="pick-img">
-            <img src="img/Map_2.png" alt="Map" width="255">
-          </div>
-      </div>
+         </td>
+         <td>
+          <span class="pick_img">
+            <img src="img/Map_2.png" alt="Map" >
+          </span>
+         </td>
+       </tr>
+     </table>
+    </td>
+  </tr>
+  <!-- TWO COLUMN SECTION -->
+  <tr>
+    <td>
+     <table class="pick" style="padding: 30px 20px; background-color: #E7E7E7;border-top: 2px dashed #ffffff; text-align: left;">
+       <tr>
+         <td>
+          <span>
+            <p>
+              <strong>Reserve Hotel</strong>
+      
+            </p> 
+            <span style="font-size: 14px;"><p>
+              Up to 35% off base price + 5 000 bonus miles
+            </p></span>  <br>
+            <span>
+              <a href="#" class="button">Reserve</a>
+            </span>
+          </span>
+
+         </td>
+         <td>
+          <span class="pick_img">
+            <img src="img/hotel.png" alt="Map">
+          </span>
+         </td>
+       </tr>
+     </table>
     </td>
   </tr>
   
-    <tr>
-      
-      
-      <td>
-       
-        <div class="pick" style="margin-top: -5px; border-top: 2px dashed #ffffff; ">
-            <div class="pick-text" style="text-align: left; padding: 10px;">
-              <div style="font-size: 17px; font-weight: 600;"><span>Get Pick Puck</span></div> <br>
-              <div>
-                <div>
-                  <strong>Reserve Hotel</strong>
-
-                </div> 
-                <div style="font-size: 14px;"><span>
-                  Up to 35% off base price + 5 000 bonus miles
-                </span></div><br><br>
-                <div>
-                  <a href="#" class="button">Reserve Hote</a>
-                </div>
-              </div>
-            </div>
-            <div class="pick-img">
-              <img src="img/hotel.png" alt="Hotel" width="255">
-            </div>
-        </div>
-      </td>
-    </tr>
-    <tr>
-      
-      
-      <td>
-       
-        <div class="pick" style="margin-top: -5px; border-top: 2px dashed #ffffff; ">
-            <div class="pick-text" style="text-align: left; padding: 10px;">
-              <div style="font-size: 17px; font-weight: 600;"><span>Get Pick Puck</span></div> <br>
-              <div>
-                <div>
-                  <strong>Reserve Hotel</strong>
-
-                </div> 
-                <div style="font-size: 14px;"><span>
-                  Up to 35% off base price + 5 000 bonus miles
-                </span></div><br><br>
-                <div>
-                  <a href="#" class="button">Reserve Hote</a>
-                </div>
-              </div>
-            </div>
-            <div class="pick-img">
-              <img src="img/shopping.png" alt="shopping" width="255">
-            </div>
-        </div>
-      </td>
-    </tr>
-
   <!-- Download  -->
 
   <tr>
-    <table class="downloads" style="background-color: #ffffff; border-bottom-left-radius: 20px; border-bottom-right-radius: 20px;">
-      <td>
-   
-        <div class="download" >
-            <div class="download_title" style="font-size: 16px; font-weight: 600; padding: 10px 0px;">
-              <div>
-                <span>Download free</span>
-              </div>
-              <div>
-                <span>mobile application</span>
-              </div>
-            </div>
-            <div>
-              
-            </div>
-            <div class="download_title" style="display: flex; justify-content: space-between;">
-              <div style="padding: 5px;">
-                <img src="img/App_Store_Badge_US_Black.png" alt="" width="118" height="35">
-              </div>
-              <div style="padding: 5px ;">
-                <img src="img/Google_Play_Badge_US.png" alt="" width="118" height="35">
-              </div>
-            </div>
-        </div>
-       
+    <table class="the_download" style="background-color: #ffffff; padding: 20px; border-bottom-left-radius: 20px; border-bottom-right-radius: 20px; text-align: center;">
+      <tr>
+        <td>
+          <div>
+            <span>Download free</span>
+          </div>
+          <div>
+            <span>mobile application</span>
+          </div>
+        </td>
+        <td>
+          <img src="img/App_Store_Badge_US_Black.png" alt="" width="90" height="35">
+          <img src="img/Google_Play_Badge_US.png" alt="" width="90" height="35">
 
-        
-      </td>
+        </td>
+      </tr>
+      
     </table>
   </tr>
   <!-- FOOTER SECTION -->
   <tr>
     <td class="footer">
-      <div class="footer_logo" style="padding: 20px;">
+      <span class="footer_logo" style="padding: 20px;">
         <img src="img/logo_smaller.png" alt="Logo" width="83" height="75">
-      </div>
-      <div class="footer_links" style="display: inline;   padding-bottom: 20px;
+      </span><br><br>
+      <span class="footer_links" style="display: inline;   padding-bottom: 20px;
       border-bottom: 1px dashed #626262;">
         <a style="text-decoration: none; color: #626262; font-size: 14px;" href="#">Need Help</a>
         <a style="text-decoration: none; color: #626262; font-size: 14px;" href="#">Flight Deals</a>
         <a style="text-decoration: none; color: #626262; font-size: 14px;" href="#">Earn Miles</a>
         <a style="text-decoration: none; color: #626262; font-size: 14px;" href="#">Give Back</a>
-      </div>
+      </span>
       
     </td>
     
