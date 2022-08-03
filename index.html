@@ -1,0 +1,895 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="color-scheme" content="light dark">
+   <meta name="supported-color-schemes" content="light dark">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<title>Flight Confirmation HTML Email</title>
+
+	<style type="text/css">
+		@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap');
+	
+    table {
+      border-spacing: 0;
+      font-family: "Poppins", sans-serif !important;
+			
+		}
+		td {
+			padding: 0;
+		}
+		p {
+			font-size: 12px;
+		}
+		img {
+			border: 0;
+			border-width:0;
+		}
+		a {
+			color: #26292B;
+			text-decoration: none;
+		}
+		@media screen and (max-width: 599.98px) { 
+			.px-600-0 {
+				padding-left: 0!important;
+				padding-right: 0!important;
+			}
+			.pt-600-0 {
+				padding-top: 0!important;
+			}
+			img.third-img-last {
+				width: 200px!important;
+				max-width: 200px!important;
+			}
+			.d-600-none {
+				display: none!important;
+			}
+			.pr-large {
+				padding-right: 140px!important;
+			}
+			.center-text-mobile {
+				text-align: center!important;
+			}
+		}
+		@media screen and (max-width: 549.98px) { 
+			.pt-550-0 {
+				padding-top: 0!important;
+			}
+			.pr-large {
+				padding-right: 100px!important;
+			}
+		}
+		@media screen and (max-width: 499.98px) { 
+			.pt-500-0 {
+				padding-top: 0!important;
+			}
+			.pr-large {
+				padding-right: 60px!important;
+			}
+		}
+		
+		@media screen and ( max-width:414px) {
+			.centering{
+				text-align: center!important;
+			}
+			#ghost{
+				width: 50px!important;
+			}
+		} 
+		@media screen and (max-width: 399.98px) { 
+			.px-sm-0 {
+				padding-left: 0!important;
+				padding-right: 0!important;
+			}
+			.pt-400-0 {
+				padding-top: 0!important;
+			}
+			img.third-img {
+				width: 200px!important;
+				max-width: 200px!important;
+			}
+			.pr-large {
+				padding-right: 25px!important;
+			}
+			.padding-sm{
+				
+				padding-top: 10px!important;
+				padding-right: 20px!important;
+				padding-bottom: 5px!important;
+				padding-left: 20px!important;
+			}
+			#padding_sm_1{
+				padding-top: 10px!important;
+				padding-right: 20px!important;
+				padding-bottom: 20px!important;
+				padding-left: 20px!important;
+			}
+			.centering{
+				text-align: center!important;
+			}
+			#ghost{
+				width: 50px!important;
+			}
+		}
+
+      :root {
+         color-scheme: light dark;
+         supported-color-schemes: light dark;
+      }
+      @media (prefers-color-scheme: dark) {
+         body, center, .darkmode_table, .darkmode-bg {
+            background: #2d2d2d!important;
+            color: #ffffff!important;
+         }
+         .dark-text{
+
+          color: #161616!important;
+         }
+			.atag{
+				color: #ffffff!important;
+			}
+         .darkmode-transparent {
+            background-color: transparent!important;
+         }
+			
+      } 
+	</style>
+
+	<!--[if (gte mso 9)|(IE)]>
+		<style type="text/css">
+			table {border-collapse: collapse !important;}
+		</style>
+	<![endif]-->
+	
+</head>
+<body style="Margin: 20px 0 0 0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;min-width:100%;background-color:#E8E8E8;">
+
+   <!--[if (gte mso 9)|(IE)]>
+      <style type="text/css">
+         body {background-color: #F6F9FC!important;}
+         body, table, td, p, a {font-family: sans-serif, Arial, Helvitica!important;}
+      </style>
+   <![endif]-->
+
+	<center style="width: 100%;table-layout:fixed;background-color: #E8E8E8;padding-bottom: 40px;">
+		<div style="max-width: 600px;background-color: #ffffff;box-shadow: 0 0 10px rgba(0, 0, 0, .2);">
+
+         <div style="font-size: 0px;color: #ffffff;line-height: 1px;mso-line-height-rule:exactly;display: none;max-width: 0px;max-height: 0px;opacity: 0;overflow: hidden;mso-hide:all;">
+            Add Preheader Text Here (85-100 characters in length) 
+         </div>
+        
+
+			<!--[if (gte mso 9)|(IE)]>
+				<table width="600" align="center" style="border-spacing:0;">
+				<tr>
+				<td style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;">
+			<![endif]-->
+
+			<table class="darkmode_table" align="center" style="border-spacing:0;color:#3d3d3d;font-family:'Raleway', serif, sans-serif, Arial, Helvetica;background-color: #ffffff;Margin:0;padding-top: 0;padding-right: 0;padding-bottom: 0;padding-left: 0;width: 100%;max-width: 600px;" role="presentation">
+
+
+<tr>
+	<td class="two-columns" style="padding: 20px 10px;text-align:center;font-size:0;">
+
+		<!--[if (gte mso 9)|(IE)]>
+			<table width="100%" style="border-spacing:0;">
+			<tr>
+			<td width="250" valign="top" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;">
+		<![endif]-->
+
+		<table class="column darkmode_table" style="border-spacing:0;width:50%;display:inline-block;vertical-align: top;" role="presentation">
+			<tr>
+				<td class="padding px-600-0" style="padding-top:10px;padding-right:0px;padding-bottom:0;padding-left:20px;">
+					<table class="content darkmode_table" style="border-spacing:0;width:100%;text-align:left;" role="presentation">
+						<tr>
+							<td class="centering" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;width:100%;text-align:left; width:250px;">
+								<a href="https://www.example.com"><img src="https://i.ibb.co/YDPKx7C/logo-airline.png" alt="logo" width="120" style="border-width:0;max-width: 120px;border-radius: 3px;"></a>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+
+	
+	
+		<!--[if (gte mso 9)|(IE)]>
+			</td><td width="310" valign="top" style="padding-top:0;padding-right:10px;padding-bottom:0;padding-left:0;">
+		<![endif]-->
+
+		<table class="column darkmode_table" style="border-spacing:0;width:50%;display:inline-block; text-align: right !important;;" role="presentation">
+			<tr>
+				<td class="padding px-600-0" style="padding-top:10px;padding-right:0px;padding-bottom:0;padding-left:20px;">
+					<table class="content darkmode_table" style="border-spacing:0;width:100%; text-align:right; " role="presentation">
+						<tr>
+							<td>
+              
+                <span  style="font-size: 11px!important; text-align: right;" >
+                  <p style="padding: 0px;">James Brown</p>
+                  <p>Member Nr. <span style="color: #EB5256;">688969807</span> | Level
+                     <span style="color: #EB5256;">Basic</span></p>
+                  <p>Reward Points <span style="color: #EB5256;">2000</span></p>
+                </span>
+              </td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+
+	
+
+		<!--[if (gte mso 9)|(IE)]>
+			</td>
+			</tr>
+			</table>
+		<![endif]-->
+
+	</td>
+</tr>
+
+<tr>
+	<td>
+	  <table align="center" class="darkmode_table" width="100%" style="border-spacing:0;padding-top: 0px; padding-right: 10px;padding-bottom: 0px; padding-left: 10px;" role="presentation">
+      <tr style="background-color: #F9F9F9!important;">
+        <td style="padding: 20px; text-align: center; background-color: #A9E0FF; ">
+          <span class="heading" style="color: #1678AC; padding: 5px; font-family: 'Poppins', sans-serif; font-size: 15px; font-weight: 600;">
+            <span>Flight Confirmation</span>
+          </span>
+          
+        </td>
+      </tr>
+		</table>
+	</td>
+</tr>
+
+
+<tr>
+	<td>
+	  <table align="center" class="darkmode_table" width="100%" style="border-spacing:0;padding-top: 0px; padding-right: 10px;padding-bottom: 0px; padding-left: 10px;" role="presentation">
+      
+      <tr>
+        <td style="padding: 20px 0px;">
+          <span class="heading" style=" text-align: left; font-family: 'Poppins', sans-serif;  font-weight: 500;">
+            <span style=" font-size: 17px;">Confirmation Code:</span><br>
+            <span>
+              <span style="color: #EA5256; font-size: 20px;">WTH34LT</span>
+            </span>
+          </span>
+        
+        </td>
+      </tr>
+		</table>
+	</td>
+</tr>
+
+
+<tr>
+	<td style="padding: 0px;background-color: #ffffff;">
+		<table class="darkmode_table" width="100%" style="border-spacing:0;padding-top: 0px; padding-right: 10px;padding-bottom: 0px; padding-left: 10px;" role="presentation">
+      <tr>
+        <td>
+         <table style="width: 100%; padding: 20px; background-color: #EA5256;font-family: 'Poppins', sans-serif; text-align: center; margin-bottom: -2px;">
+           <tr>
+             <td>
+              <strong style="font-size: 40px;  color:#ffffff">OTP</strong>
+            </td>
+             <td>
+              <img src="https://i.ibb.co/SwCY9sm/Airplane.gif" alt="" width="135">
+            </td>
+             <td>
+              <strong style="font-size: 40px;  color:#ffffff">LHR</strong>
+            </td>
+           
+              
+            
+           </tr>
+           <tr>
+             
+            <td> <span style="font-size: 17px; color:#ffffff">Bucharest</span></td>
+            <td>
+              <span style="font-size: 12px;  color:#ffffff">Flight Duration</span> <br>
+              <span style="font-size: 12px; margin-top: 10px;  color:#ffffff">2h 54m</span>
+            </td>
+             <td>
+              <span style="font-size: 17px ; color:#ffffff">London</span>
+    
+             </td> 
+           </tr>
+         </table>
+        </td>
+        
+      </tr>
+      <tr>
+        <td style="background: #EA5256;">
+          <hr width="80%" style="color: #ffffff;">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          
+       <table style="width: 100%; text-align: center; background-color: #EA5256; padding: 20px; font-family: 'Trebuchet MS', sans-serif;margin-top: -2px; ">
+         <tr>
+           <th>
+            <strong style="font-size: 15px;  margin-bottom: 5px; color:#ffffff;">Terminal</strong><br> <br>
+           </th>
+           <th>
+            <strong style="font-size: 15px;  margin-bottom: 5px; color:#ffffff;">Bording Time</strong><br> <br>
+           </th>
+           <th>
+            <strong style="font-size: 15px;  margin-bottom: 5px; color:#ffffff;">Class</strong><br> <br>
+           </th>
+           <th>
+            <strong style="font-size: 15px;  margin-bottom: 5px; color:#ffffff;">Seat</strong><br> <br>
+           </th>
+        </tr>
+        <tr>
+          <td>
+            <span style="font-size: 18px; color:#ffffff;">A</span>
+          </td>
+          <td>
+            <span style="font-size: 18px; color:#ffffff;">16:45</span>
+          </td>
+          <td>
+            <span style="font-size: 18px; color:#ffffff;">Economy</span>
+          </td>
+          <td>
+            <span style="font-size: 18px; color:#ffffff;">17A</span>
+          </td>
+        </tr>
+      
+        
+       </table>
+       
+      </td>
+    </tr>
+ 
+<tr>
+   <td align="center" class="darkmode-bg" style="padding: 20px;;background-color: #ffffff;">
+      <table class="darkmode_table" width="100%" style="border-spacing: 0;" role="presentation">
+
+        <tr>
+          <td>
+            <table  style=" width: 100%; text-align: center;">
+              <tr>
+                <th>
+                  <span style="font-size: 15px; font-weight: 300;">Flight</span><br> <br>
+                </th>
+                <th>
+                  <span style="font-size: 15px; font-weight: 300;">Date</span><br> <br>
+                </th>
+                <th>
+                  <span style="font-size: 15px; font-weight: 300;">Plane</span><br> <br>
+                </th> 
+              </tr>
+                <tr>
+                  <td>
+                    <strong style="font-size: 18px;">WT897</strong>
+                  </td>
+                  <td>
+                    <strong style="font-size: 18px;">14Jan</strong>
+                  </td>
+                  <td>
+                    <strong style="font-size: 18px;">A320</strong>
+                  </td>
+                </tr>
+                
+            </table>
+            <table style="padding: 20px; text-align: center; width: 100%;">
+              <tr>
+                <td>
+                  <tr>
+                        
+                    <td style="margin: 0 auto;">
+            
+                      <img  src="https://i.ibb.co/0Z1LCx4/barcode.png" alt="" width="350"><br> <br>
+                    </td>
+                      
+                    </tr>
+                    <tr>
+                      
+											<td align="center" style=" padding:2px 15px;">
+                        <a href="https://example.com" target="_blank" style="font-size: 16px;font-weight: bold;text-decoration: none;color: #ffffff;background-color: #EA5256;padding:10px 25px;display: inline-block;">
+
+                          Download boarding pass</a>
+            
+                      </td>
+                    </tr>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+   </td>
+</tr>
+
+<tr>
+   <td align="center" class="darkmode-bg" style="padding: 20px;;background-color: #ffffff;">
+      <table class="darkmode_table" width="100%" style="border-spacing: 0;" role="presentation">
+
+        <tr>
+          <td>
+           <table class="sq" style=" width: 100%; padding: 20px; text-align: left;">
+             <tr>
+               <td>
+                 <span style="font-size: 16px; font-weight: 700; margin: 30px 20px;">
+       
+                   <p >Booking Details</p>
+                 </span>
+               </td>
+             </tr>
+       
+              <tr>
+               <td>
+                 <span style="font-size: 14px; font-weight: 600;">Luggage</span> <br><br>
+               </td>
+               <td>
+                 <span style="font-size: 14px">1 x 24kg</span><br><br>
+                
+               </td>
+              </tr>
+              <tr>
+               <td>
+                 <span style="font-size: 14px; font-weight: 600;">Seat</span><br><br>
+                 
+               </td>
+               <td>
+                 <span style="font-size: 14px">17A</span><br><br>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                 
+                 <span style="font-size: 14px;font-weight: 600;">Class</span><br><br>
+               </td>
+               <td>
+                 <span style="font-size: 14px;">Economy</span><br><br>
+               </td>
+              </tr>
+               
+           </table>
+          </td>
+         </tr>
+         <tr>
+                      
+          <td align="center" style=" padding:2px 15px;">
+            <a href="https://example.com" target="_blank" style="font-size: 16px;font-weight: bold;text-decoration: none;color: #ffffff;background-color: #EA5256;padding:10px 25px;display: inline-block;">
+
+              Make Changes</a>
+
+          </td>
+        </tr>
+      </table>
+   </td>
+</tr>
+<tr>
+   <td align="center" class="darkmode-bg" style="padding: 20px;;background-color: #ffffff;">
+      <table class="darkmode_table" width="100%" style="border-spacing: 0;" role="presentation">
+
+        <tr>
+          <table width="100%"  style="text-align: center;">
+            <td>
+              <table>
+                <tr>
+                  <td>
+                    <span style="font-weight: 600;">Your Trip Receipt</span> <br>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <img style="margin-top: 10px;" src="https://i.ibb.co/sF2Fn6V/creadit-card.png" alt="Creadit card" width="35" height="24">
+      
+                  </td>
+                  <td>
+                    <p style="font-size: 14px; font-weight: 400;">Visa xxxx xxxx xxxx xx34</p>
+      
+                  </td>
+                </tr>
+                
+              </table>
+              <table style="margin: 20px 10px; text-align: left; width: 80% ;">
+                <tr>
+                  <td>
+                    <tr>
+                      <td>
+                       <span style="font-size: 16px; font-weight: 600; margin: 30px 20px;">
+             
+                         <span >James Brown</span>
+                         <br><br>
+                       </span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td><span style="font-size: 14px; font-weight: 600;">Basic Economy Far x1</span><br><br> </td>
+                      
+                      <td><span style="font-size: 14px; ">$350</span><br><br></td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <span style="font-size: 14px; font-weight: 600;">Fees & Taxes</span> <br><br>
+                      </td>
+                      
+                      <td>
+                        <span style="font-size: 14px">$50</span><br><br>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <span style="font-size: 14px; font-weight: 600;">Total</span><br><br>
+                      </td>
+                      
+                      <td>
+                        <span style="font-size: 14px; font-weight: 600;">$400</span>
+                      </td>
+                    </tr>
+      
+                  </td>
+                </tr>
+              </table>
+             
+            
+            </td>
+          </table>
+        </tr>
+      </table>
+   </td>
+</tr>
+
+
+
+
+<tr>
+  <td align="center" class="darkmode-bg" style="padding: 0px 20px;;background-color: #ffffff;">
+    <table class="darkmode_table" width="100%" style="border-spacing: 0;" role="presentation">
+
+      <tr>
+        <td>
+         <table class="dark-text" width="100%"style="padding: 20px; text-align: center;background-color: #E7E7E7; ">
+           <tr>
+             <td style="text-align: left;">
+              <span style="font-size: 17px; font-weight: 600;"><span>Get Pick Puck</span></span> <br>
+              <span>
+                <p>
+                  <strong>Terminal 2</strong>
+          
+                </p> 
+                <span style="font-size: 14px;"><p>
+                  Inner Ring E, Hounslow TW6 1RR, UK
+                </p></span>  <br>
+                <span style=" padding:2px 15px;">
+                 
+                    <a href="https://example.com" target="_blank" style="font-size: 16px;font-weight: bold;text-decoration: none;color: #ffffff;background-color: #EA5256;padding:10px 25px;display: inline-block;">
+        
+                    
+                    Reserve Taxi</a>
+                </span>
+              </span>
+    
+             </td>
+             <td style="padding-left: 60px;">
+              <span >
+                <img src="https://i.ibb.co/NpL9fP2/Map-2.png" alt="Map" width="255" height="208" style="max-width: 260px;">
+              </span>
+             </td>
+           </tr>
+         </table>
+        </td>
+      </tr>
+     </table>
+  </td>
+</tr>
+
+
+<tr>
+  <td align="center" class="darkmode-bg" style="padding: 0px 20px 20px 20px;background-color: #ffffff;">
+    <table class="darkmode_table " width="100%" style="border-spacing: 0;" role="presentation">
+
+      <tr>
+        <td>
+         <table class="dark-text" width="100%"style="padding: 20px ; text-align: center;background-color: #E7E7E7; border-top: 2px dashed #ffffff;">
+           <tr>
+             <td style="text-align: left;">
+              <span>
+                <p>
+                  <strong>Reserve Hotel</strong>
+          
+                </p> 
+                <span style="font-size: 14px;"><p>
+                  Up to 35% off base price + 5 000 bonus miles
+                </p></span>  <br>
+                <span style=" padding:2px 15px;">
+                 
+                    <a href="https://example.com" target="_blank" style="font-size: 16px;font-weight: bold;text-decoration: none;color: #ffffff;background-color: #EA5256;padding:10px 25px;display: inline-block;">
+        
+                    
+                    Reserve </a>
+                </span>
+              </span>
+    
+             </td>
+             <td style="padding-left: 60px;">
+              <span >
+                <img src="https://i.ibb.co/LJ89dV6/hotel.png" alt="Map" width="255" height="208" style="max-width: 260px;">
+              </span>
+             </td>
+           </tr>
+         </table>
+        </td>
+      </tr>
+     </table>
+  </td>
+</tr>
+<tr>
+  <td align="center" class="darkmode-bg" style="padding: 0px 20px 20px 20px;background-color: #ffffff;">
+    <table class="darkmode_table " width="100%" style="border-spacing: 0;" role="presentation">
+
+          <tr>
+            <table width="100%" class="the_download" style="padding: 20px; border-bottom-left-radius: 20px; border-bottom-right-radius: 20px; text-align: center;">
+              <tr>
+                <td>
+                  <div>
+                    <span>Download free</span>
+                  </div>
+                  <div>
+                    <span>mobile application</span>
+                  </div>
+                </td>
+                <td>
+                  <img src="https://i.ibb.co/6Ww0Xnw/App-Store-Badge-US-Black.png" alt="" width="90" height="35">
+                  <img src="https://i.ibb.co/YfYqpyw/Google-Play-Badge-US.png" alt="" width="90" height="35">
+        
+                </td>
+              </tr>
+              
+            </table>
+          </tr>
+          <tr>
+            <td class="darkmode-bg" style="text-align: center;padding: 10px 0 8px 0;">
+            
+                <a href="https://example.com" target="_blank"><img src="https://i.ibb.co/bPLzh61/circle-facebook.png" alt="#" width="32" border="0"></a>
+                <a href="https://example.com" target="_blank"><img src="https://i.ibb.co/sRH7TK2/circle-twitter.png" alt="#" width="32" border="0"></a>
+                <a href="https://example.com" target="_blank"><img src="https://i.ibb.co/VQ9nCv3/circle-youtube.png" alt="#" width="32" border="0"></a>
+                <a href="https://example.com" target="_blank"><img src="https://i.ibb.co/K5wbWBS/circle-linkedin.png" alt="#" width="32" border="0"></a>
+                <a href="https://example.com" target="_blank"><img src="https://i.ibb.co/x8G1NMz/circle-instagram.png" alt="#" width="32" border="0"></a>
+            
+            </td>
+        </tr>
+        
+        <tr>
+          <td align="center" class="darkmode-bg" style="padding:0;background-color: #ffffff;">
+            <table class="darkmode_table" width="100%" style="border-spacing: 0;" role="presentation">
+        
+                  <tr>
+                      <td >
+                          <table  border="0" width="100%" style="border-spacing:0;padding-top:20px;padding-right:15px;padding-bottom:0;padding-left:15px; " role="presentation">
+                          <tr>
+                              <td class="navigation-columns" style="padding-top:0;padding-right:0;padding-bottom:12px;padding-left:0;text-align:center;font-size:0;">
+                                  
+                  
+                          <!--[if (gte mso 9)|(IE)]>
+                              <table width="100%" style="border-spacing:0;">
+                              <tr>
+                              <td width="200" valign="top" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;">
+                          <![endif]-->
+                  
+                          <table border="0" class="d-600-none " style="border-spacing:0;width:100%;max-width:50px;display:inline-block;vertical-align: top;" role="presentation">
+                              <tr>
+                                  <td class="padding px-600-0 " style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;">
+                                      <table border="0" class="content" style="border-spacing:0;" role="presentation">
+                                          <tr>
+                                              <td style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;">
+                                              </td>
+                                          </tr>
+                                      </table> 
+                                  </td>
+                              </tr>
+                          </table>
+                  
+                          <!--[if (gte mso 9)|(IE)]>
+                              </td><td width="500" valign="top" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;">
+                          <![endif]-->
+                          <table border="0" class="column " style="border-spacing:0;width:100%;max-width:350px;display:inline-block;vertical-align:top;" role="presentation">
+                              <tr>
+                                  <td class="padding px-600-0" style="padding-top:0px;padding-right:15px;padding-bottom:0;padding-left:0;">
+                                      <table border="0" class="content " style="border-spacing:0;font-size:12px;text-align:center;" role="presentation">
+                                          <tr>
+                                              <td class="padding content" style="padding-top:0px;padding-right:0;padding-bottom:0;padding-left:0;width:100%;text-align:center; width:120px;font-size:12px;">
+                                                  <p style="font-size:12px;Margin:0;display: inline;padding-right:10px;"><a class="atag" href="https://example.com" target="_blank"  style="text-decoration: none;color: #2d2d2d;font-size:12px;">SpacceJK</a></p>
+                                              </td>
+                                          
+                                              
+                                              <td class="padding content" style="padding-top:0px;padding-right:0;padding-bottom:0;padding-left:0;width:100%;text-align:center; width:100px;font-size:12px;">
+                                                  <p style="font-size:12px;Margin:0;display: inline;padding-right:10px;"><a class="atag" href="https://example.com" target="_blank"  style="text-decoration: none;color: #2d2d2d;font-size:12px;">FAQS</a></p>
+                                              </td>
+                                          
+                                              <td class="padding content" style="padding-top:0px;padding-right:0;padding-bottom:0;padding-left:0;width:100%;text-align:center; width:200px;font-size:12px;">
+                                                  <p style="font-size:12px;Margin:0;display: inline;"><a class="atag" href="https://example.com" target="_blank"  style="text-decoration: none;color: #2d2d2d;font-size:12px;">Terms & Conditions</a></p>
+                                              </td>
+                                  
+                                          </tr>
+                                                                  
+                                      </table>
+                                  </td>
+                              </tr>
+                          </table>
+                      
+                      
+                          <!--[if (gte mso 9)|(IE)]>
+                              </td><td width="20" valign="top" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;">
+                          <![endif]-->
+                  
+                          <table border="0" class="d-600-none " style="border-spacing:0;width:100%;max-width:50px;display:inline-block;vertical-align: top; " role="presentation">
+                              <tr>
+                                  <td class="padding px-600-0" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;">
+                                      <table class="content " style="border-spacing:0;" role="presentation">
+                                          <tr>
+                                              <td style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;">
+                                              </td>
+                                          </tr>
+                                      </table>
+                                  </td>
+                              </tr>
+                          </table>
+                  
+                          <!--[if (gte mso 9)|(IE)]>
+                              </td>
+                              </tr>
+                              </table>
+                          <![endif]-->
+                  
+                                  </td>
+                              </tr>
+                          </table>
+                      </td>
+                  </tr>			
+                      </table>
+                  </td>
+        </tr>
+        <tr>
+          <td style="padding-top:10px;padding-right:30px;padding-bottom:0;padding-left:30px; text-align: center;font-weight: 400; ">
+              <table   class="darkmode_table" align="center" width="100%" border="0" cellspacing="0" cellpadding="0" role="presentation">
+                  <tr>
+                  
+                      <td style="text-align: center;">
+                          <p class="atag" style="font-size: 15px;color: #2d2d2d;  Margin: 0;">You have received this email as registered user of SpacceJK. You can unsubscribe from these emails <a href="https://example.com" style="text-decoration: none; font-weight: 500; color: #55ACEE;">Here</a></p>
+                      </td>
+                  </tr>
+              </table>
+          </td>
+      </tr>
+
+      <tr>
+        <td align="center" class="darkmode-bg" style="padding:0;background-color: #ffffff;">
+            <table class="darkmode_table" width="100%" style="border-spacing: 0;" role="presentation">
+    
+                <tr>
+                    <td >
+                        <table class="darkmode_table" border="0" width="100%" style="border-spacing:0;padding-top:20px;padding-right:15px;padding-bottom:0;padding-left:15px; " role="presentation">
+                        <tr>
+                            <td class="navigation-columns" style="padding-top:0;padding-right:0;padding-bottom:12px;padding-left:0;text-align:center;font-size:0;">
+                                
+                
+                        <!--[if (gte mso 9)|(IE)]>
+                            <table width="100%" style="border-spacing:0;">
+                            <tr>
+                            <td width="200" valign="top" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;">
+                        <![endif]-->
+                
+                        <table border="0" class="d-600-none " style="border-spacing:0;width:100%;max-width:50px;display:inline-block;vertical-align: top;" role="presentation">
+                            <tr>
+                                <td class="padding px-600-0 " style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;">
+                                    <table border="0" class="content" style="border-spacing:0;" role="presentation">
+                                        <tr>
+                                            <td style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;">
+                                            </td>
+                                        </tr>
+                                    </table> 
+                                </td>
+                            </tr>
+                        </table>
+                
+                        <!--[if (gte mso 9)|(IE)]>
+                            </td><td width="500" valign="top" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;">
+                        <![endif]-->
+                        <table border="0" class="column " style="border-spacing:0;width:100%;max-width:350px;display:inline-block;vertical-align:top;" role="presentation">
+                            <tr>
+                                <td class="padding px-600-0" style="padding-top:0px;padding-right:15px;padding-bottom:0;padding-left:0;">
+                                    <table border="0" class="content darkmode_table" style="border-spacing:0;font-size:12px;text-align:center;" role="presentation">
+                                        <tr>
+                                            <td class="padding content" style="padding-top:0px;padding-right:0;padding-bottom:0;padding-left:0;width:100%;text-align:center; width:120px;font-size:12px;">
+                                                <p  style="font-size:12px;Margin:0;display: inline;padding-right:10px;border-right: 1px solid #868686"><a   class="atag" href="https://example.com" target="_blank"  style="text-decoration: none;color: #2d2d2d;font-size:12px;">20 Dancun st</a></p>
+                                            </td>
+                                        
+                                            
+                                            <td class="padding content" style="padding-top:0px;padding-right:0;padding-bottom:0;padding-left:0;width:100%;text-align:center; width:200px;font-size:12px;">
+                                                <p style="font-size:12px;Margin:0;display: inline;padding-right:10px;border-right: 1px solid #868686"><a  class="atag" href="https://example.com" target="_blank"  style="text-decoration: none;color: #2d2d2d;font-size:12px;">Toronto ON Canada</a></p>
+                                            </td>
+                                        
+                                            <td class="padding content" style="padding-top:0px;padding-right:0;padding-bottom:0;padding-left:0;width:100%;text-align:center; width:100px;font-size:12px;">
+                                                <p style="font-size:12px;Margin:0;display: inline;"><a class="atag" href="https://example.com" target="_blank"  style="text-decoration: none;color: #2d2d2d;font-size:12px;">Canada</a></p>
+                                            </td>
+                                
+                                        </tr>
+                                                                
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    
+                    
+                        <!--[if (gte mso 9)|(IE)]>
+                            </td><td width="20" valign="top" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;">
+                        <![endif]-->
+                
+                        <table border="0" class="d-600-none " style="border-spacing:0;width:100%;max-width:50px;display:inline-block;vertical-align: top; " role="presentation">
+                            <tr>
+                                <td class="padding px-600-0" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;">
+                                    <table class="content " style="border-spacing:0;" role="presentation">
+                                        <tr>
+                                            <td style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;">
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                
+                        <!--[if (gte mso 9)|(IE)]>
+                            </td>
+                            </tr>
+                            </table>
+                        <![endif]-->
+                
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>			
+            </table>
+        </td>
+    </tr>
+          
+<tr>
+  <td style="padding-top:10px;padding-right:30px;padding-bottom:0;padding-left:30px; text-align: center;font-weight: 400; ">
+      <table  style="background-color: #ffffff;" class="darkmode_table" align="center" width="100%" border="0" cellspacing="0" cellpadding="0" role="presentation">
+          <tr>
+              <td style="padding-top:40px;padding-right:50px;padding-bottom:30px;padding-left:50px; text-align: center; ">
+                  <p class="atag" style="font-size: 15px; color: #2d2d2d; Margin: 0;">© SpaceJK,Inc.</p>
+              </td>
+          </tr>
+      </table>
+  </td>
+</tr>    
+
+     </table>
+  </td>
+</tr>
+
+
+
+
+      </table>
+   </td>
+</tr>
+
+
+
+
+
+			</table>
+
+			<!--[if (gte mso 9)|(IE)]>
+				</td>
+				</tr>
+				</table>
+			<![endif]-->
+
+		</div>
+	</center>
+</body>
+</html>
